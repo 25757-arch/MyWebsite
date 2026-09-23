@@ -1,1 +1,23 @@
 /* Main stylesheet for the New Zealand tourist attractions website */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fbf9f6;
+    color: #333333;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
