@@ -525,3 +525,118 @@ p {
 .place-five .place-info {
     padding-left: 30px;
 }
+
+
+
+/* Where Are They Section */
+
+.location-section {
+    width: 100%;
+    max-width: 1440px;
+    height: 575px;
+    margin: 0 auto;
+    background-color: #F0F9EB;
+}
+
+
+/* Main layout */
+
+.location-content {
+    width: calc(100% - 9.2%);
+    height: 100%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 52% 48%;
+    align-items: center;
+}
+
+
+/* Left side */
+
+.location-list h2 {
+    margin: 0 0 36px 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(36px, 3.6vw, 52px);
+    font-weight: 800;
+    line-height: 1.1;
+
+    color: #174D3D;
+}
+
+
+/* Individual location row */
+
+.location-item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    margin-bottom: 8px;
+}
+
+.location-item img {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.location-item p {
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(20px, 2.1vw, 30px);
+    line-height: 1.2;
+
+    white-space: nowrap;
+}
+
+.location-item strong {
+    font-weight: 800;
+    color: #174D3D;
+}
+
+.location-item span {
+    font-weight: 500;
+    color: #000000;
+}
+
+
+/* Right side */
+
+.location-map-area {
+    position: relative;
+    height: 100%;
+}
+
+.all-places-map {
+    position: absolute;
+
+    width: min(406px, 65%);
+    height: auto;
+
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+
+
+/* Bottom right slogan */
+
+.location-slogan {
+    position: absolute;
+
+    right: 0;
+    bottom: 70px;
+
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(21px, 2.1vw, 30px);
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: #174D3D;
+}
