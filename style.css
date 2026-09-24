@@ -986,7 +986,11 @@ p {
 
     color: #174D3D;
 
-    white-space: nowrap;
+}
+
+.milford-info-text {
+    margin-left: 27px;
+    min-width: 0;
 }
 
 
@@ -1076,6 +1080,10 @@ p {
 
 .hobbiton-map {
     left: -52px;
+}
+
+.waitomo-map {
+    left: -11px;
 }
 
 
