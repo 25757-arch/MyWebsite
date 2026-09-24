@@ -640,3 +640,105 @@ p {
 
     color: #174D3D;
 }
+
+
+
+/* Travel Tips Section */
+
+.travel-tips-section {
+    width: calc(100% - 6.2%);
+    max-width: 1351px;
+    margin: 100px auto 0;
+
+    padding-bottom: 100px;
+}
+
+
+/* Travel Tips heading */
+
+.travel-tips-title {
+    margin: 0 0 69px 0;
+
+    text-align: center;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(44px, 4.45vw, 64px);
+    font-weight: 900;
+    line-height: 1.2;
+
+    color: #2B5477;
+}
+
+
+/* Three tip cards */
+
+.travel-tips-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 29px;
+}
+
+
+/* Individual card */
+
+.travel-tip-card {
+    height: 174px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #FFFFFF;
+
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.7);
+
+    overflow: hidden;
+}
+
+
+/* Tip icon */
+
+.travel-tip-icon {
+    width: 126px;
+    height: 126px;
+
+    flex-shrink: 0;
+
+    object-fit: contain;
+}
+
+
+/* Tip text */
+
+.travel-tip-text {
+    padding-right: 20px;
+}
+
+
+/* Card heading */
+
+.travel-tip-text h3 {
+    margin: 0 0 5px 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(18px, 1.74vw, 25px);
+    font-weight: 800;
+    line-height: 1.2;
+
+    color: #174D3D;
+}
+
+
+/* Card description */
+
+.travel-tip-text p {
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(12px, 1.04vw, 15px);
+    font-weight: 400;
+    line-height: 23px;
+
+    color: #174D3D;
+}
