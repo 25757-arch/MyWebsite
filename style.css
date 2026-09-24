@@ -533,8 +533,8 @@ p {
 .location-section {
     width: 100%;
     max-width: 1440px;
-    height: 575px;
-    margin: 0 auto;
+    height: 450px;
+    margin: 100px auto 0;
     background-color: #F0F9EB;
 }
 
