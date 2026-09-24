@@ -1064,10 +1064,18 @@ p {
     width: 360px;
     height: 450px;
 
-    left: -10px;
     top: 0;
 
     object-fit: contain;
+}
+
+
+.milford-map {
+    left: -10px;
+}
+
+.hobbiton-map {
+    left: -52px;
 }
 
 
