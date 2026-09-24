@@ -13,6 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fbf9f6;
     color: #333333;
+    overflow-x: hidden;
 }
 
 h1,
@@ -20,4 +21,74 @@ h2,
 h3,
 p {
     margin-top: 0;
+}
+
+
+/* Hero section - matches the Figma desktop design */
+
+.hero-section {
+    position: relative;
+
+    width: 100%;
+    max-width: 1440px;
+
+    height: min(720px, 50vw);
+
+    margin: 0 auto;
+
+    background-image: url("image/title.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+/* Main heading scales slightly on different desktop screen sizes */
+
+.hero-title {
+    position: absolute;
+    
+    left: 6.67%;
+    top: 34.86%;
+
+    width: 86%;
+    
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(48px, 6.25vw, 90px);
+    font-weight: 800;
+    line-height: 1.05;
+
+    color: #ffffff;
+
+    text-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Keeps the title on the same two lines as the Figma design */
+
+.hero-title span {
+    display: block;
+    white-space: nowrap;
+}
+
+.hero-subtitle {
+    position: absolute;
+
+    left: 6.67%;
+    top: 68%;
+
+    width: 56%;
+
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(18px, 2.08vw, 30px);
+    font-weight: 600;
+    line-height: 1.2;
+
+    color: #ffffff;
+
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
 }
