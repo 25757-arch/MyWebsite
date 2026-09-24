@@ -257,6 +257,9 @@ p {
     align-items: start;
 }
 
+.place-one .place-info {
+    padding-left: 30px;
+}
 
 /* Main attraction image */
 
@@ -423,4 +426,35 @@ p {
 
 .learn-more:hover {
     opacity: 0.7;
+}
+
+
+
+/* Hobbiton Movie Set - Place 2 */
+
+.place-two {
+    margin-top: 180px;
+
+    display: grid;
+    grid-template-columns: 1fr 42%;
+    column-gap: 3%;
+
+    align-items: start;
+}
+
+.place-two .place-info {
+    padding-left: 30px;
+}
+
+/* Culture tag */
+
+.tag-culture {
+    background-color: #F4C97A;
+}
+
+
+/* Family tag */
+
+.tag-family {
+    background-color: #C8B6E8;
 }
