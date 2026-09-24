@@ -458,3 +458,28 @@ p {
 .tag-family {
     background-color: #C8B6E8;
 }
+
+
+
+/* Waitomo Glowworm Caves - Place 3 */
+
+.place-three {
+    margin-top: 180px;
+
+    display: grid;
+    grid-template-columns: 42% 1fr;
+    column-gap: 3%;
+
+    align-items: start;
+}
+
+.place-three .place-info {
+    padding-left: 30px;
+}
+
+
+/* Unique tag */
+
+.tag-unique {
+    background-color: #E6B7DF;
+}
