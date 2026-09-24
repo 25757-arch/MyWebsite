@@ -92,3 +92,101 @@ p {
 
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
 }
+
+/* Discover Aotearoa Section */
+
+.discover-section {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.discover-content {
+    width: calc(100% - 12%);
+    max-width: 1227px;
+
+    margin: 0 auto;
+
+    padding-top: 55px;
+    padding-bottom: 70px;
+
+    display: grid;
+    grid-template-columns: 47% 1fr;
+    column-gap: 6%;
+
+    align-items: start;
+}
+
+/* Left text */
+
+.discover-text h2 {
+    margin: 0 0 22px 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+
+    color: #2B5477;
+}
+
+.discover-text p {
+    width: 100%;
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+/* Right statistics */
+
+.discover-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6%;
+}
+
+.stat-item {
+    width: 100%;
+    text-align: center;
+}
+
+.stat-item img {
+    display: block;
+
+    width: min(150px, 100%);
+    aspect-ratio: 1 / 1;
+
+    margin: 0 auto;  
+}
+
+.stat-number {
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+
+    color: #2B5477;
+}
+
+.stat-endless {
+    font-size: 40px;
+}
+
+.stat-label {
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+
+    color: #000000;
+    white-space: nowrap;
+}
