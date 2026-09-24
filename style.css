@@ -988,3 +988,103 @@ p {
 
     white-space: nowrap;
 }
+
+
+
+/* Why Visit Section */
+
+.why-visit-section {
+    width: 100%;
+    max-width: 1440px;
+    height: 450px;
+
+    margin: 80px auto 0;
+
+    background-color: #F6FBF6;
+}
+
+
+/* Main layout */
+
+.why-visit-content {
+    width: calc(100% - 9.7%);
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 55% 45%;
+
+    align-items: center;
+}
+
+
+/* Left side */
+
+.why-visit-text h2 {
+    margin: 0 0 28px 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(36px, 3.6vw, 52px);
+    font-weight: 800;
+    line-height: 1.2;
+
+    color: #174D3D;
+}
+
+
+.why-visit-text p {
+    max-width: 707px;
+
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(17px, 1.53vw, 22px);
+    font-weight: 500;
+    line-height: 45px;
+
+    color: #000000;
+}
+
+
+/* Right side */
+
+.why-visit-map-area {
+    position: relative;
+
+    height: 100%;
+}
+
+
+/* Milford Sound map */
+
+.why-visit-map {
+    position: absolute;
+
+    width: 360px;
+    height: 450px;
+
+    left: -10px;
+    top: 0;
+
+    object-fit: contain;
+}
+
+
+/* Right-side slogan */
+
+.why-visit-slogan {
+    position: absolute;
+
+    right: 0;
+    bottom: 42px;
+
+    margin: 0;
+
+    font-family: "Inter", Arial, sans-serif;
+    font-size: clamp(22px, 2.08vw, 30px);
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: #174D3D;
+}
