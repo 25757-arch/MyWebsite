@@ -483,3 +483,28 @@ p {
 .tag-unique {
     background-color: #E6B7DF;
 }
+
+
+
+/* Rotorua - Place 4 */
+
+.place-four {
+    margin-top: 180px;
+
+    display: grid;
+    grid-template-columns: 1fr 42%;
+    column-gap: 3%;
+
+    align-items: start;
+}
+
+.place-four .place-info {
+    padding-left: 30px;
+}
+
+
+/* Relaxation tag */
+
+.tag-relaxation {
+    background-color: #F3B6A8;
+}
