@@ -508,3 +508,21 @@ p {
 .tag-relaxation {
     background-color: #F3B6A8;
 }
+
+
+
+/* Aoraki / Mount Cook - Place 5 */
+
+.place-five {
+    margin-top: 180px;
+
+    display: grid;
+    grid-template-columns: 42% 1fr;
+    column-gap: 3%;
+
+    align-items: start;
+}
+
+.place-five .place-info {
+    padding-left: 30px;
+}
