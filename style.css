@@ -235,8 +235,7 @@ p {
 }
 
 
-
-/* Milford Sound - Place 1 */
+/* Attraction Cards */
 
 .place {
     width: calc(100% - 9.4%);
@@ -246,18 +245,27 @@ p {
     margin-right: auto;
 }
 
-.place-one {
-    margin-top: 70px;
-
+/* Image left, text right */
+.place-one,
+.place-three,
+.place-five {
     display: grid;
     grid-template-columns: 42% 1fr;
     column-gap: 3%;
-
     align-items: start;
 }
 
+.place-one {
+    margin-top: 70px;
+}
 
-/* Main attraction image */
+.place-three,
+.place-five {
+    margin-top: 180px;
+}
+
+
+/* Attraction image */
 
 .place-image {
     width: 100%;
@@ -270,7 +278,7 @@ p {
 }
 
 
-/* Right-hand information */
+/* Attraction information */
 
 .place-info {
     min-width: 0;
@@ -393,12 +401,30 @@ p {
     color: #000000;
 }
 
+/* Attraction tag colours */
+
 .tag-nature {
     background-color: #89BEEC;
 }
 
 .tag-adventure {
     background-color: #B2E2BB;
+}
+
+.tag-culture {
+    background-color: #F4C97A;
+}
+
+.tag-family {
+    background-color: #C8B6E8;
+}
+
+.tag-unique {
+    background-color: #E6B7DF;
+}
+
+.tag-relaxation {
+    background-color: #F3B6A8;
 }
 
 
@@ -427,90 +453,17 @@ p {
 
 
 
-/* Hobbiton Movie Set - Place 2 */
 
-.place-two {
-    margin-top: 180px;
-
-    display: grid;
-    grid-template-columns: 1fr 42%;
-    column-gap: 3%;
-
-    align-items: start;
-}
-
-
-/* Culture tag */
-
-.tag-culture {
-    background-color: #F4C97A;
-}
-
-
-/* Family tag */
-
-.tag-family {
-    background-color: #C8B6E8;
-}
-
-
-
-/* Waitomo Glowworm Caves - Place 3 */
-
-.place-three {
-    margin-top: 180px;
-
-    display: grid;
-    grid-template-columns: 42% 1fr;
-    column-gap: 3%;
-
-    align-items: start;
-}
-
-
-
-/* Unique tag */
-
-.tag-unique {
-    background-color: #E6B7DF;
-}
-
-
-
-/* Rotorua - Place 4 */
-
+/* Text left, image right */
+.place-two,
 .place-four {
     margin-top: 180px;
 
     display: grid;
     grid-template-columns: 1fr 42%;
     column-gap: 3%;
-
     align-items: start;
 }
-
-
-
-/* Relaxation tag */
-
-.tag-relaxation {
-    background-color: #F3B6A8;
-}
-
-
-
-/* Aoraki / Mount Cook - Place 5 */
-
-.place-five {
-    margin-top: 180px;
-
-    display: grid;
-    grid-template-columns: 42% 1fr;
-    column-gap: 3%;
-
-    align-items: start;
-}
-
 
 
 
