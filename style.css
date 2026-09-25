@@ -50,7 +50,7 @@ p {
     font-size: clamp(48px, 6.25vw, 90px);
     font-weight: 800;
     line-height: 1.05;
-    color: #ffffff;
+    color: #FFFFFF;
     text-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
 }
 
@@ -71,7 +71,7 @@ p {
     font-size: clamp(18px, 2.08vw, 30px);
     font-weight: 600;
     line-height: 1.2;
-    color: #ffffff;
+    color: #FFFFFF;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
 }
 
@@ -191,8 +191,7 @@ p {
 .place {
     width: calc(100% - 9.4%);
     max-width: 1369px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 
@@ -424,7 +423,6 @@ p {
     font-family: "Inter", Arial, sans-serif;
     font-size: clamp(20px, 2.1vw, 30px);
     line-height: 1.2;
-
     white-space: nowrap;
 }
 
@@ -581,8 +579,7 @@ p {
     font-weight: 800;
     line-height: 1.1;
     color: #FFFFFF;
-    text-shadow: 
-        0 4px 25px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
 }
 
 .detail-hero-text p {
@@ -592,8 +589,7 @@ p {
     font-weight: 600;
     line-height: 1.2;
     color: #FFFFFF;
-    text-shadow:
-        0 4px 20px rgba(0, 0, 0, 0.8);
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
 }
 
 
