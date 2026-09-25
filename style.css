@@ -256,9 +256,6 @@ p {
     align-items: start;
 }
 
-.place-one .place-info {
-    padding-left: 30px;
-}
 
 /* Main attraction image */
 
@@ -277,6 +274,7 @@ p {
 
 .place-info {
     min-width: 0;
+    padding-left: 30px;
 }
 
 
@@ -441,9 +439,6 @@ p {
     align-items: start;
 }
 
-.place-two .place-info {
-    padding-left: 30px;
-}
 
 /* Culture tag */
 
@@ -472,9 +467,6 @@ p {
     align-items: start;
 }
 
-.place-three .place-info {
-    padding-left: 30px;
-}
 
 
 /* Unique tag */
@@ -497,9 +489,6 @@ p {
     align-items: start;
 }
 
-.place-four .place-info {
-    padding-left: 30px;
-}
 
 
 /* Relaxation tag */
@@ -522,9 +511,6 @@ p {
     align-items: start;
 }
 
-.place-five .place-info {
-    padding-left: 30px;
-}
 
 
 
