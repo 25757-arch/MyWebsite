@@ -595,7 +595,7 @@ p {
 
 
 /* Detail Page About Section */
-.milford-about {
+.detail-about {
     width: calc(100% - 4.8%);
     max-width: 1325px;
     margin: 70px auto 0;
@@ -607,7 +607,7 @@ p {
 
 
 /* Attraction image */
-.milford-about-image {
+.detail-about-image {
     width: 100%;
     aspect-ratio: 704 / 470;
     display: block;
@@ -618,13 +618,13 @@ p {
 
 
 /* Right content */
-.milford-about-content {
+.detail-about-content {
     min-width: 0;
 }
 
 
 /* About heading */
-.milford-about-content h2 {
+.detail-about-content h2 {
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
     font-size: clamp(36px, 3.6vw, 52px);
@@ -635,20 +635,20 @@ p {
 
 
 /* Location row */
-.milford-about-location {
+.detail-about-location {
     margin-top: 24px;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.milford-about-location img {
+.detail-about-location img {
     width: 64px;
     height: 64px;
     flex-shrink: 0;
 }
 
-.milford-about-location p {
+.detail-about-location p {
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
     font-size: clamp(28px, 2.8vw, 40px);
@@ -660,7 +660,7 @@ p {
 
 
 /* Description */
-.milford-about-description {
+.detail-about-description {
     margin: 27px 0 0 0;
     font-family: "Inter", Arial, sans-serif;
     font-size: clamp(17px, 1.6vw, 23px);
@@ -672,7 +672,7 @@ p {
 
 
 /* Detail Page Information Cards */
-.milford-info-cards {
+.detail-info-cards {
     width: calc(100% - 6.2%);
     max-width: 1351px;
     margin: 70px auto 0;
@@ -683,7 +683,7 @@ p {
 
 
 /* Individual information card */
-.milford-info-card {
+.detail-info-card {
     height: 128px;
     display: flex;
     align-items: center;
@@ -695,21 +695,21 @@ p {
 
 
 /* Card icon */
-.milford-info-icon {
+.detail-info-icon {
     width: 116px;
     height: 116px;
     flex-shrink: 0;
     object-fit: contain;
 }
 
-.milford-info-text {
+.detail-info-text {
     margin-left: 27px;
     min-width: 0;
 }
 
 
 /* Card heading */
-.milford-info-text h3 {
+.detail-info-text h3 {
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
     font-size: clamp(22px, 2.08vw, 30px);
@@ -720,7 +720,7 @@ p {
 
 
 /* Card description */
-.milford-info-text p {
+.detail-info-text p {
     margin: 2px 0 0 0;
     font-family: "Inter", Arial, sans-serif;
     font-size: clamp(16px, 1.53vw, 22px);
