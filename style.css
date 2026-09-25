@@ -82,7 +82,6 @@ p {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    background-color: transparent;
 }
 
 .discover-content {
@@ -456,7 +455,7 @@ p {
 /* Bottom right slogan */
 .location-slogan {
     position: absolute;
-    right: 0;
+    right: -50px;
     bottom: 70px;
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
@@ -813,7 +812,7 @@ p {
 /* Right-side slogan */
 .why-visit-slogan {
     position: absolute;
-    right: 0;
+    right: -30px;
     bottom: 42px;
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
